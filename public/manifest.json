@@ -1,0 +1,8 @@
+{
+  "short_name": "Learning App",
+  "name": "Application for learning",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
