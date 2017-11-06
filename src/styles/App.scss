@@ -22,3 +22,21 @@
   font-family: 'Old Standard TT', serif;
   font-weight: lighter;
 }
+
+.container-one div {
+  height: 200px;
+  width: 200px;
+}
+
+.container-one {
+ display: flex;
+}
+.one-example-one {
+  background-color: #d86060;
+}
+.one-example-two {
+  background-color: #a569a5;
+}
+.one-example-three {
+  background-color: lightgreen;
+}
