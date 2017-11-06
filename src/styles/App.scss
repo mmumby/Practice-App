@@ -10,7 +10,7 @@
 .examples-container {
   margin: 20px;
   border: 5px solid white;
-  height: 550px;
+  height: 100%;
 }
 
 .welcome {
@@ -23,20 +23,49 @@
   font-weight: lighter;
 }
 
-.container-one div {
+.container-one div, .container-two div, .container-three div {
+  border: 1px solid white;
   height: 200px;
-  width: 200px;
 }
 
-.container-one {
+.container-one, .container-two, .container-three {
  display: flex;
 }
 .one-example-one {
   background-color: #d86060;
+  flex: 1;
 }
 .one-example-two {
   background-color: #a569a5;
+  flex: 1;
 }
 .one-example-three {
   background-color: lightgreen;
+  flex: 1;
+}
+
+.two-example-one {
+  background-color: #d86060;
+  flex: 2;
+}
+.two-example-two {
+  background-color: #a569a5;
+  flex: 1;
+}
+.two-example-three {
+  background-color: lightgreen;
+  flex: 2;
+}
+
+.three-example-one {
+  background-color: #d86060;
+  flex: 1;
+}
+.three-example-two {
+  background-color: #a569a5;
+  flex: 4;
+}
+.three-example-three {
+  background-color: lightgreen;
+  flex: 1;
 }
