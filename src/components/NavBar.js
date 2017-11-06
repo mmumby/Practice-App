@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.css';
-
-import Routes from '../routes';
-
+import { NavLink } from 'react-router-dom';
 
 class NavBar extends Component {
   constructor(){
@@ -22,7 +19,20 @@ class NavBar extends Component {
     return (
       <div className="navbar">
         <i onClick={this.handleButtonClick.bind(this)} id="hamburger-nav" className="fa fa-3x fa-bars" aria-hidden="true"></i>
-        <Routes />
+        <div>
+          <ul className="nav-dropdown">
+            <li>
+              <NavLink exact activeClassName="active" to="/">
+              <i className="fa fa-2x fa-home" aria-hidden="true"></i>Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink exact activeClassName="active" to="/flex-box">
+              FlexBox
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
