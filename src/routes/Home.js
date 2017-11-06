@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/App.scss';
+import Welcome from '../components/Welcome';
 
 export default () => (
   <div>
-    <h1>Home</h1>
-    <Link to="/flex-box">FlexBox</Link>
+      <Link to="/flex-box">FlexBox</Link>
+      <Welcome />
    </div>
   );

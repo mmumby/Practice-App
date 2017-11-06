@@ -1,28 +1,24 @@
-.App {
-  text-align: center;
+
+.navbar {
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.header {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.examples-container {
+  margin: 20px;
+  border: 5px solid white;
+  height: 550px;
 }
 
-.App-intro {
-  font-size: large;
+.welcome {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.message {
+  font-family: 'Old Standard TT', serif;
+  font-weight: lighter;
 }

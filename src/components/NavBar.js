@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/App.css';
-import NavBar from './NavBar'
 
+import Routes from '../routes';
 
 export default () => (
-  <div>
-    <NavBar />
+  <div className="navbar">
+    <Routes />
   </div>
   );
