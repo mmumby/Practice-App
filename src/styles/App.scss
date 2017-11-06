@@ -4,8 +4,25 @@
   position: fixed;
 }
 
-.navbar {
+.container-homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
 
+.welcome {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+}
+
+.message {
+  margin-top: 140px;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  font-size: 40px;
 }
 
 .header {
@@ -18,15 +35,6 @@
   height: 100%;
 }
 
-.welcome {
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
-}
-
-.message {
-  font-family: 'Old Standard TT', serif;
-  font-weight: lighter;
-}
 
 .container-one div, .container-two div, .container-three div {
   border: 1px solid white;

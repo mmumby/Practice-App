@@ -21,7 +21,7 @@ class NavBar extends Component {
   render() {
     return (
       <div className="navbar">
-        <i onClick={this.handleButtonClick.bind(this)} id="hamburger-nav" class="fa fa-3x fa-bars" aria-hidden="true"></i>
+        <i onClick={this.handleButtonClick.bind(this)} id="hamburger-nav" className="fa fa-3x fa-bars" aria-hidden="true"></i>
         <Routes />
       </div>
     );
